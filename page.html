@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Ton Application d'Événements</title>
+		<link rel="stylesheet" href="styles.css">
+		<script type="module" src="evenement.js"></script>
+	</head>
+	<body>
+		<header>
+			<img src="images/logo-ton-application.png" alt="LOGO">
+			<h1>Ton Application d'Événements</h1>
+		</header>
+		<main>
+			<!-- Menu de recherche -->
+			<section class="filtres">
+				<h3>Filtres</h3>
+				<!-- Ajoute ici des éléments de filtres spécifiques à ton application -->
+			</section>
+      <label for="motsCles">Mots-clés :</label>
+      <input type="text" id="motsCles" placeholder="Saisir des mots-clés">
+
+      <label for="region">Région :</label>
+      <input type="text" id="region" placeholder="Saisir une région">
+
+      <button onclick="appliquerFiltres()">Appliquer les filtres</button>
+			<!-- Fiches événements -->
+			<section class="fiches">
+				<!-- Les fiches événements seront ajoutées dynamiquement via JavaScript -->
+			</section>
+		</main>
+	</body>
+</html>
